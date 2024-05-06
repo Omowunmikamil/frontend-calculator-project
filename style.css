@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: hsl(0, 0%, 10%);
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    height: 100vh;
+}
+
+table { 
+    width: 400px;
+    height: 500px;
+    margin: 4em auto;
+    padding: 3em;
+    border: none; 
+    border-radius: 40px;
+    background-color: rgb(97,99,105);
+} 
+  
+input { 
+    width: 380px;
+    background-color: rgb(199, 206, 211);
+    box-shadow: 0px 14px rgba(198, 204, 208, 0.905);
+    color: hsl(0, 0%, 20%);
+    font-size: 4rem;
+    font-weight: 500;
+    text-align: right;
+    border: none; 
+    border-radius: 12px; 
+    margin-bottom: 0.65em;
+    padding: 0 14px;
+    overflow: hidden;
+} 
+
+button {
+    width: 80px;
+    height: 80px;
+    margin: 10px 6px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(0, 0%, 96%);
+    box-shadow: 1px 6px rgba(242, 241, 241, 0.8);
+    color: hsl(0, 0%, 20%);
+    font-size: 3.7rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 80%);
+}
+
+button:active {
+    background-color: hsl(0, 8%, 95%);
+}
+
+.orange {
+    background-color: rgb(243,151,49);
+    box-shadow: 1px 6px rgb(226,132,55);
+}
+
+.orange:hover {
+    background-color: rgb(253, 177, 90);
+}
+
+.orange:active {
+    background-color: rgb(254, 212, 163);
+}
+
+
+/* Mobile */
+@media screen and (width: 375px) {
+    input {
+        font-size: 3rem;
+        width: 240px;
+    }
+
+    button {
+        width: 50px;
+        height: 50px;
+        margin: 6px 4px;
+        border-radius: 6px;
+        font-size: 2rem;
+    }
+
+    table {
+        width: 280px;
+        height: 400px;
+        margin: 6em auto;
+    }
+}
