@@ -1,14 +1,14 @@
-const display = document.getElementById('display');
+const output = document.getElementById('output');
 
-function appendToDisplay(input) {
-    display.value += input;
+function appendToOutput(input) {
+    output.value += input;
 }
 
 function calculate() {
     try {
-        display.value = eval(display.value);
+        output.value = eval(output.value);
     }
     catch (error) {
-        display.value = 'Error';
+        output.value = 'Error';
     }
 }
