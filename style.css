@@ -75,6 +75,17 @@ button:active {
     background-color: rgb(254, 212, 163);
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
 
 /* Mobile */
 @media screen and (width: 375px) {
